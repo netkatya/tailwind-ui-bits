@@ -33,7 +33,7 @@ export default function HeartButton() {
           }
           ${
             isActive
-              ? "bg-gradient-to-b from-[rgba(255,137,179,0.42)] to-[rgba(255,137,179,0.32)] border-[rgba(255,137,179,0.7)] shadow-[0_10px_30px_rgba(255,137,179,0.18)]"
+              ? "bg-linear-to-b from-[rgba(255,137,179,0.42)] to-[rgba(255,137,179,0.32)] border-[rgba(255,137,179,0.7)] shadow-[0_10px_30px_rgba(255,137,179,0.18)]"
               : ""
           }
         `}
