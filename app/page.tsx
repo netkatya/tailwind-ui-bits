@@ -1,4 +1,5 @@
 import HeartButton from "@/components/HeartButton/HeartButton";
+import MaryLoader from "@/components/MaryLoader/MaryLoader";
 import VanLoader from "@/components/VanLoader/VanLoader";
 
 export default function Home() {
@@ -11,6 +12,9 @@ export default function Home() {
           </li>
           <li className="items">
             <VanLoader />
+          </li>
+          <li className="items">
+            <MaryLoader />
           </li>
         </ul>
       </div>
