@@ -1,4 +1,5 @@
 import DotLoader from "@/components/DotsLoader/DotsLoader";
+import HeardLoader from "@/components/HeardLoader/HeardLoader";
 import HeartButton from "@/components/HeartButton/HeartButton";
 import MaryLoader from "@/components/MaryLoader/MaryLoader";
 import VanLoader from "@/components/VanLoader/VanLoader";
@@ -19,6 +20,9 @@ export default function Home() {
           </li>
           <li className="items">
             <DotLoader />
+          </li>
+          <li className="items">
+            <HeardLoader />
           </li>
         </ul>
       </div>
